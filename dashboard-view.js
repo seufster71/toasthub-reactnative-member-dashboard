@@ -1,4 +1,5 @@
 import React from 'react';
+import { View, Text } from 'react-native';
 import PropTypes from 'prop-types';
 
 
@@ -9,7 +10,7 @@ export default function DashboardView({itemState, fields, texts, labels, onChang
 	
 
     return (
-      <View> Dashboard Page </View>
+      <View><Text> Dashboard Page </Text></View>
     );
 }
 
